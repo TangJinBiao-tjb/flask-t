@@ -11,6 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+    print("棒棒糖")
     return 'Hello World!'
 
 
